@@ -19,7 +19,11 @@ body {
 h3{color: lightslategrey;}
 
 a {
-	color:#999999;
+	color: black;
+}
+
+a {
+    text-decoration: unset;
 }
 
 a:hover {
@@ -141,7 +145,7 @@ html {
 
 body {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
-  font-size: 21px;
+  font-size: 12px;
   font-weight: 400;
   color: #6b6b6b;
   overflow-x: hidden;
@@ -319,7 +323,7 @@ a:hover {
 }
 
 p {
-  line-height: 1.8;
+  line-height: 1.5;
 }
 
 /*
@@ -488,7 +492,7 @@ p {
 	text-align:right;
 	font-size:200%;
 	color: darkseagreen;
-	border-bottom: 1px double #black;
+	border-bottom: 3px double #black;
 }
 
 #sidebar p {
@@ -544,11 +548,11 @@ p {
 
 #content p {
 	text-indent: 20px;
-	line-height: 35px;
+	line-height: 1.5;
 }
 
 #content ol,ul {
-	line-height: 35px;
+	line-height: 1.5;
 }
 
 #content li {
